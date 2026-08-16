@@ -1,0 +1,117 @@
+/* =========================
+   Global Reset
+   ========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   Page
+   ========================= */
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(86, 69, 97);
+}
+
+/* =========================
+   Main Todo Container
+   ========================= */
+
+.todo-container {
+  width: 500px;
+
+  border: 3px solid black;
+  border-radius: 8px;
+
+  overflow: hidden;
+}
+
+/* =========================
+   Header
+   ========================= */
+
+.todo-header {
+  padding: 20px;
+
+  background-color: crimson;
+
+  border-bottom: 3px solid black;
+}
+
+.todo-title {
+  text-align: center;
+
+  color: white;
+}
+
+/* =========================
+   Todo Form Section
+   ========================= */
+
+.todo-form-section {
+  height: 300px;
+  padding: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(10, 135, 244);
+}
+
+/* =========================
+   Form
+   ========================= */
+
+.todo-form {
+  display: flex;
+  gap: 10px;
+}
+
+/* =========================
+   Input
+   ========================= */
+
+.todo-input {
+  width: 300px;
+  padding: 12px;
+
+  border: 2px solid black;
+  border-radius: 5px;
+
+  background-color: white;
+  color: black;
+
+  font-size: 16px;
+}
+
+/* =========================
+   Add Task Button
+   ========================= */
+
+.add-task-btn {
+  padding: 12px 18px;
+
+  border: 2px solid black;
+  border-radius: 5px;
+
+  background-color: white;
+  color: black;
+
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-task-btn:hover {
+  background-color: black;
+  color: white;
+}
