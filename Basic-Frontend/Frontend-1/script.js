@@ -6,6 +6,7 @@ const todoList = document.querySelector(".todo-list");
 // Listen for form submission
 form.addEventListener("submit", function (event) {
   // Prevent page refresh
+
   event.preventDefault();
 
   // Get input value
