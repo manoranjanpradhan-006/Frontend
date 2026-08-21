@@ -6,12 +6,21 @@
 }
 
 body {
-  height: 100%vh;
-  width: 100%vh;
+  height: 100vh;
+  width: 100vh;
+  background: #d72121;
 }
 
 .navbar {
-  background-color: #fff;
-  height: 20px;
-  width: 100%vh;
+  display: flex;
+  background: #b71dc9;
+  justify-content: center;
+}
+
+.nav-header {
+  background-color: #26df05;
+  color: blue;
+  width: 100vh;
+  border: 2px solid black;
+  border-radius: 5px;
 }
