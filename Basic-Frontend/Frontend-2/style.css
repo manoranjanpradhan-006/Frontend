@@ -4,3 +4,14 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  height: 100%vh;
+  width: 100%vh;
+}
+
+.navbar {
+  background-color: #fff;
+  height: 20px;
+  width: 100%vh;
+}
