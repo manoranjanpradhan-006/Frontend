@@ -1,0 +1,38 @@
+body {
+  background-color: #000000;
+}
+
+.topbar {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.topbar-left {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-section {
+  height: 40px;
+  display: flex;
+}
+
+.topbar-right {
+  height: 40px;
+}
+
+.search-box {
+  height: 40px;
+  color: ffffff;
+  background-color: 121212;
+  margin: 0 0 0 32px;
+  padding: 0 16px 0 4px;
+  border: 2px solid white;
+}
